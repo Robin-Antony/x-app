@@ -1,0 +1,90 @@
+body{
+    /* background-color: rgb(0, 0, 14);
+    color: white; */
+}
+.about-background{
+    display: flex;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-1{
+    background-image: url("./pageImages/wave3.svg");
+}
+.about-d1{
+    width: 50%;
+    min-height: 500px;
+    /* border: 1px solid rgb(225, 221, 221); */
+}
+.intro-res{
+    flex-direction: column-reverse;
+}
+.about-background2{
+    min-width: 75%;
+    min-height: 75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-background3{
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team-d2{
+    width: 25%;
+}
+.team-d1{
+    width: 75%;
+}
+.bg-2{
+    background-image: url("./pageImages/team.jpg");
+}
+.bg-3{
+    
+    background-image: url("./pageImages/solutions.jpg");
+}
+.bg-4{
+    
+    background-image: url("./pageImages/wave4.svg");
+}
+.why-us{
+   min-width: 250px;
+   padding: 2px;
+   margin: 5px;
+   /* border: 1px solid white; */
+}
+.why-us>div{
+    max-width: 250px;
+    padding: 4px;
+    margin: 5px;
+    /* border: 1px solid white; */
+}
+
+@media screen and (max-width: 700px) {
+    .about-background{
+        flex-direction: column;
+        justify-content: start;
+       
+    }
+    .about-background2{
+        min-height: 200px;
+        width: 200px;
+        /* background-color: orange; */
+    }
+
+    .about-d1{
+        width: 100%;
+    }
+    
+    .team-d2{
+        width: 100%;
+        margin-bottom: 4px;
+        height: 200px;
+    }
+    .team-d1{
+        width: 100%;
+    }
+}
