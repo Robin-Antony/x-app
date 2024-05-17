@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/StrokeColorUpdater-Dod8fs4X.js","assets/index-HLQDAzmk.js","assets/index-Cuto072r.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{_ as e}from"./index-HLQDAzmk.js";async function i(r,o=!0){await r.addParticleUpdater("strokeColor",async t=>{const{StrokeColorUpdater:a}=await e(()=>import("./StrokeColorUpdater-Dod8fs4X.js"),__vite__mapDeps([0,1,2]));return new a(t)},o)}export{i as loadStrokeColorUpdater};
