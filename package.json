@@ -1,6 +1,5 @@
 {
   "name": "x-app",
-  "homepage": "https://Robin-Antony.github.io/react-x-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -14,6 +13,7 @@
     "@react-spring/parallax": "^9.7.3",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.3.0",
+    "embla-carousel-autoplay": "^8.0.4",
     "embla-carousel-react": "^8.0.2",
     "react": "^18.2.0",
     "react-countup": "^6.5.3",
