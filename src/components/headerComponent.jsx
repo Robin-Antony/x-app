@@ -53,16 +53,16 @@ function HeaderComponent() {
                     {toggler?(
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                         <li className="nav-item">
-                        <a className="nav-link text-white " href={'/'}>Home</a>
+                        <a className="nav-link text-white " href={'/x-app/'}>Home</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link text-white " href={'/about'}>About Us</a>
+                        <a className="nav-link text-white " href={'/x-app/about'}>About Us</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link text-white " href={'/service'}>Services</a>
+                        <a className="nav-link text-white " href={'/x-app/service'}>Services</a>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link text-white " href={'/contact'}>Contact Us</a>
+                        <a className="nav-link text-white " href={'/x-app/contact'}>Contact Us</a>
                         </li>
                         <li className="nav-item">
                         <a className="nav-link text-white " href="#">Careers</a>
