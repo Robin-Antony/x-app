@@ -1,2 +1,0 @@
-const __vite__fileDeps=["assets/OutOfCanvasUpdater-CQrkw6J3.js","assets/index-HLQDAzmk.js","assets/index-Cuto072r.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
-import{_ as o}from"./index-HLQDAzmk.js";async function i(t,a=!0){await t.addParticleUpdater("outModes",async e=>{const{OutOfCanvasUpdater:r}=await o(()=>import("./OutOfCanvasUpdater-CQrkw6J3.js"),__vite__mapDeps([0,1,2]));return new r(e)},a)}export{i as loadOutModesUpdater};
