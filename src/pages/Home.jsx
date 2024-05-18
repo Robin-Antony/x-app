@@ -32,11 +32,16 @@ function Home() {
     const techs = tech
 
     function offset(){
-      if( window.innerWidth < 1000){
+      if( window.innerWidth < 700){
+        let width = 0.4
+        let height = 8.1
+        return {width,height}
+      }else if(window.innerWidth<1000){
         let width = 0.4
         let height = 7
         return {width,height}
-      }else{
+      }
+      else{
         let width = 0.1
         let height = 5.2
         return {width, height}

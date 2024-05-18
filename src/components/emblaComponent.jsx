@@ -2,7 +2,7 @@ import React from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import './embla.css'
 import { useEffect } from 'react'
-import { ParticleComponent } from './particle'
+// import { ParticleComponent } from './particle'
 import Autoplay from 'embla-carousel-autoplay'
 
 
@@ -19,7 +19,7 @@ export function EmblaCarousel() {
 
   return (
     <>
-    <ParticleComponent/>
+    {/* <ParticleComponent/> */}
     <div className="embla" ref={emblaRef} >
       <div className="embla__container cls_relative ">
         <div className="embla__slide p-sm-1 p-md-2 p-lg-5">

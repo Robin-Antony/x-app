@@ -31,9 +31,7 @@ function HeaderComponent() {
             <div>
                 { !toggler  ? (<button className="navbar-toggler text-white" type="button">
                     <i className="fas fa-bars" onClick={togglerHandler}></i>
-                </button>):(<button className="navbar-toggler text-white" type="button">
-                    <i className="fas " onClick={togglerHandler}>x</i>
-                </button>)}
+                </button>):<p></p>}
                 
 
 
@@ -50,8 +48,15 @@ function HeaderComponent() {
 
             <div className="container navbar-container ">
                 <div className="d-flex align-items-center">
-                    {toggler?(
+                    {toggler?(<>
+                        
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li className=' ' >
+                            <button className="navbar-toggler text-white" style={{'marginLeft':'90%'}} type="button">
+                            <i className="fas " onClick={togglerHandler}>x</i>
+                        </button>
+                        </li>
+                        
                         <li className="nav-item">
                         <a className="nav-link text-white " href={'/x-app/'}>Home</a>
                         </li>
@@ -74,6 +79,7 @@ function HeaderComponent() {
                         <a className="nav-link text-white" href="#">Projects</a>
                         </li>
                     </ul>
+                    </>
                     ):(<h1></h1>)}
                 </div>    
             </div>
