@@ -54,15 +54,14 @@
   background-image: url(./assets/star2.png);
 }
 
-#anim-img3 {
+/* #anim-img3 {
   background-image: url(./assets/mount1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* bottom: 1px */
   
-}
+} */
 #anim-img4 {
-  background-image: url(./assets/Untitled.png);
+  background-image: url(./assets/Moon-g.png);
   background-repeat: no-repeat;
   background-size: contain;
   bottom: 100px;

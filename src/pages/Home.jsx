@@ -34,7 +34,7 @@ function Home() {
     function offset(){
       if( window.innerWidth < 700){
         let width = 0.4
-        let height = 8.1
+        let height = 8.3
         return {width,height}
       }else if(window.innerWidth<1000){
         let width = 0.4
@@ -68,9 +68,9 @@ function Home() {
             <div className='animation_layer parallax-img' id='anim-img4'></div>
           </ParallaxLayer>
   
-          <ParallaxLayer offset={0} speed={-.15}>
+          {/* <ParallaxLayer offset={0} speed={-.15}>
             <div className='animation_layer parallax' id='anim-img3'> </div>
-          </ParallaxLayer>
+          </ParallaxLayer> */}
   
           <ParallaxLayer offset={0.4} speed={0.1}>
             <div className='animation_layer parallax' id='anim-img5'> </div>
