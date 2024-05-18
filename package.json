@@ -1,5 +1,6 @@
 {
   "name": "x-app",
+  "homepage": "https://robin-antony.github.io/x-app/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
